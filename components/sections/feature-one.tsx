@@ -13,10 +13,11 @@ export default function FeatureOneSection({
   gridTemplateColumns
 }) {
   return (
-    <Container as="section">
+    <Container as="section" size="pt50pb0">
       <Grid 
         gridTemplateColumns={gridTemplateColumns}
         gridColumnGap="20"
+        gridRowGap="5"
       >
         <Flex order={textOrder || 1}>
           <Box maxW="20rem">

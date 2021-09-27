@@ -1,5 +1,6 @@
 import Container from './components/container';
 import colors from './foundations/colors';
+import layerStyles from './foundations/layerStyles';
 
 export const theme = {
   fonts: {
@@ -20,6 +21,7 @@ export const theme = {
     "7xl": "64px",
   },
   colors,
+  layerStyles,
   components: {
     Container
   },

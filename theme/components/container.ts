@@ -25,6 +25,14 @@ export default {
         lg: 24
       }
     },
+    pb0ptHeader: {
+      pt: ['calc(5rem + 60px)', 'calc(8rem + 80px)'],
+      pb: 0,
+      px: {
+        base: 5,
+        lg: 24
+      }
+    },
     pt50ptHeader: {
       pt: ['calc(2.5rem + 60px)', 'calc(4rem + 80px)'],
       pb: {
@@ -59,6 +67,16 @@ export default {
         lg: 32
       }
     },
+    px50: {
+      py: {
+        base: 20,
+        lg: 32
+      },
+      px: {
+        base: 2.5,
+        lg: 12
+      }
+    },
     py50: {
       py: 16,
       px: {
@@ -72,6 +90,14 @@ export default {
         base: 20,
         lg: 32
       },
+      px: {
+        base: 5,
+        lg: 24
+      }
+    },
+    pt50pb0: {
+      pt: 16,
+      pb: 0,
       px: {
         base: 5,
         lg: 24

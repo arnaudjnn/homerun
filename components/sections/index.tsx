@@ -1,9 +1,13 @@
 import Hero from 'components/sections/hero';
 import FeatureOne from 'components/sections/feature-one';
+import FeatureTwo from 'components/sections/feature-two';
+import GridOne from 'components/sections/grid-one';
 
 const sectionsIndex = {
   'hero': Hero,
-  'featureOne': FeatureOne
+  'featureOne': FeatureOne,
+  'featureTwo': FeatureTwo,
+  'gridOne': GridOne
 }
 
 const Sections = ({ sections }) => {

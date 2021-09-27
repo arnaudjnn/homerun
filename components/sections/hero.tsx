@@ -12,7 +12,7 @@ export default function HeroSection({
   image
 }) {
   return (
-    <Container as="section">
+    <Container as="section" size="pb0ptHeader">
       <Box textAlign="center" mb="5">
         <Heading as="h1" size="4xl" mx="auto" maxW="xl">{title}</Heading>
         <Text opacity=".8" mx="auto" maxW="md" my="10">{description}</Text>

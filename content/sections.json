@@ -81,6 +81,14 @@
     "gridTemplateColumns": {
       "base": "1fr", 
       "lg": "2fr 3fr"
+    },
+    "textOrder": {
+      "base": 2,
+      "lg": 1
+    },
+    "designOrder": {
+      "base": 1,
+      "lg": 2
     }
   },
   {
@@ -117,6 +125,117 @@
     "gridTemplateColumns": {
       "base": "1fr", 
       "lg": "2fr 3fr"
+    },
+    "textOrder": {
+      "base": 2,
+      "lg": 1
+    },
+    "designOrder": {
+      "base": 1,
+      "lg": 2
     }
+  },
+  {
+    "component": "featureTwo",
+    "title": "Start your free Homerun trial today",
+    "features": [
+      {
+        "title": "Totally free for 15 days"
+      },
+      {
+        "title": "No credit card needed"
+      }
+    ],
+    "button": {
+      "text": "Get started - It's free",
+      "variant": "solid",
+      "colorScheme": "black"
+    }
+  },
+  {
+    "component": "gridOne",
+    "title": "But wait. There is more",
+    "description": "Leverage winning strategies to best promote jobs. Find the ideal candidate faster.",
+    "features": [
+      {
+        "image": {
+          "url": "/images/job-editor.png",
+          "alt": "Job Editor",
+          "height": 206,
+          "width": 364
+        },
+        "title": "Job Editor",
+        "description": "Our easy-to-use editor allows you to create customized job ads within minutes.",
+        "layerStyle": "white"
+      },
+      {
+        "image": {
+          "url": "/images/accept-reject.png",
+          "alt": "Accept & Reject",
+          "height": 146,
+          "width": 244
+        },
+        "title": "Accept & Reject",
+        "description": "Automate tasks and save time. With one click you can accept or eject candidates.",
+        "layerStyle": "orange"
+      },
+      {
+        "image": {
+          "url": "/images/collaboration-communication.png",
+          "alt": "Team Collaboration and Communication",
+          "height": 632,
+          "width": 396
+        },
+        "title": "Team Collaboration and Communication",
+        "description": "Exchange ideas and progress with team members to make the right decisions together.",
+        "layerStyle": "green",
+        "gridRow": "span 2"
+      },
+      {
+        "image": {
+          "url": "/images/custom-tags.png",
+          "alt": "Create Custom Tags",
+          "height": 505,
+          "width": 326
+        },
+        "title": "Create Custom Tags",
+        "description": "Tags help you organize and structure candidates more efficiently.",
+        "layerStyle": "azure",
+        "gridRow": "span 2"
+      },
+      {
+        "image": {
+          "url": "/images/responsive.png",
+          "alt": "Responsive",
+          "height": 180,
+          "width": 284
+        },
+        "title": "Responsive",
+        "description": "Flexible ads without being a techie.",
+        "layerStyle": "purple"
+      },
+      {
+        "image": {
+          "url": "/images/personal-branding.png",
+          "alt": "Boost Your Employer Branding",
+          "height": 160,
+          "width": 304
+        },
+        "title": "Boost Your Employer Branding",
+        "description": "Stand out with your branded careers site - including your company’s own custom URL.",
+        "layerStyle": "red"
+      },
+      {
+        "image": {
+          "url": "/images/notes.png",
+          "alt": "Notes",
+          "height": 176,
+          "width": 304
+        },
+        "title": "Notes",
+        "description": "Collect your thoughts and share them with colleagues.",
+        "layerStyle": "white"
+      }
+    ]
   }
 ]
