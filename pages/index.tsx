@@ -1,15 +1,23 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { GetStaticProps } from 'next';
+import Layout from 'components/layout'
+import Sections from 'components/sections'
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+const IndexPage = ({ sections }) => (
+  <Layout>
+    <Sections sections={sections} />
   </Layout>
 )
+
+export const getStaticProps: GetStaticProps = async () => {
+  
+  // Normally fetched from headless CMS
+  const sections = require('content/sections.json');
+
+  return {
+    props: {
+      sections
+    }
+  }
+}
 
 export default IndexPage

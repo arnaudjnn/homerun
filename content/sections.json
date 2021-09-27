@@ -1,0 +1,69 @@
+[
+  {
+    "component": "hero",
+    "title": "Where hiring comes together.",
+    "description": "Everything you need to organise your hiring and make a great impression.",
+    "buttons": [
+      {
+        "text": "Get started - It's free",
+        "variant": "solid",
+        "colorScheme": "purple",
+        "size": "lg",
+        "link": {
+          "url": "/"
+        }
+      }
+    ],
+    "logosTitle": "Join thousands of teams hiring with Homerun",
+    "logos": [
+      {
+        "url": "/images/google.svg",
+        "alt": "Google logo",
+        "height": 24,
+        "width": 73
+      },
+      {
+        "url": "/images/apple.svg",
+        "alt": "Apple logo",
+        "height": 26,
+        "width": 23
+      },
+      {
+        "url": "/images/facebook.svg",
+        "alt": "Facebook logo",
+        "height": 18,
+        "width": 94
+      },
+      {
+        "url": "/images/spotify.svg",
+        "alt": "Spotify logo",
+        "height": 18,
+        "width": 67
+      },
+      {
+        "url": "/images/dropbox.svg",
+        "alt": "Dropbox logo",
+        "height": 20,
+        "width": 103
+      },
+      {
+        "url": "/images/github.svg",
+        "alt": "GitHub logo",
+        "height": 26,
+        "width": 28
+      },
+      {
+        "url": "/images/netflix.svg",
+        "alt": "Netflix logo",
+        "height": 18,
+        "width": 67
+      }
+    ],
+    "image": {
+      "url": "/images/dashboard.png",
+      "alt": "Dashboard",
+      "height": 640,
+      "width": 1200
+    }
+  }
+]
