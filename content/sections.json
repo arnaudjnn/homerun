@@ -65,5 +65,58 @@
       "height": 640,
       "width": 1200
     }
+  },
+  {
+    "component": "featureOne",
+    "headline": "Organize",
+    "title": "Organize your hiring",
+    "description": "A hiring flow you can wrap your head around.",
+    "image": {
+      "url": "/images/organize.png",
+      "alt": "Organize",
+      "height": 380,
+      "width": 740
+    },
+    "headlineColor": "#179690",
+    "gridTemplateColumns": {
+      "base": "1fr", 
+      "lg": "2fr 3fr"
+    }
+  },
+  {
+    "component": "featureOne",
+    "headline": "Collaborate",
+    "title": "Collaborate with your team",
+    "description": "It’s easy for your whole team to join in on hiring.",
+    "image": {
+      "url": "/images/collaborate.png",
+      "alt": "Collaborate",
+      "height": 380,
+      "width": 740
+    },
+    "headlineColor": "#FF2E57",
+    "gridTemplateColumns": {
+      "base": "1fr", 
+      "lg": "3fr 2fr"
+    },
+    "textOrder": 2,
+    "designOrder": 1
+  },
+  {
+    "component": "featureOne",
+    "headline": "Connect",
+    "title": "Connect with candidates",
+    "description": "Stand out and show candidates who you are.",
+    "image": {
+      "url": "/images/connect.png",
+      "alt": "Connect",
+      "height": 380,
+      "width": 740
+    },
+    "headlineColor": "#33D1EA",
+    "gridTemplateColumns": {
+      "base": "1fr", 
+      "lg": "2fr 3fr"
+    }
   }
 ]

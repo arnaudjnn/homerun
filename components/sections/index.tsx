@@ -1,7 +1,9 @@
 import Hero from 'components/sections/hero';
+import FeatureOne from 'components/sections/feature-one';
 
 const sectionsIndex = {
-  'hero': Hero
+  'hero': Hero,
+  'featureOne': FeatureOne
 }
 
 const Sections = ({ sections }) => {
